@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webpage</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="header-container">
-            <nav class="navbar">
-                <div class="nav-logo">landing</div>
-                <ul class="nav-list">
-                    <li class="nav-item">header link one</li>
-                    <li class="nav-item">header link one</li>
-                    <li class="nav-item">header link one</li>
-                </ul>
-            </nav>
-            <div class="header-section row-2 ">
-                <div class="column-1">
-                    <h1>This website is awesome</h1>
-                    <p class="header-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis aspernatur corporis quisquam Quis aspernatur corporis quisqua Quis aspernatur corporis quisqua</p>
-                    <button class="sign-up header-btn">
-                        Sign up
-                    </button>
+    <div class="landing-page-container">
+        <header class="header">
+
+
+            <div class="navbar-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item logo">Header Logo</li>
+                        <li class="links">
+                        <li class="nav-item home">Home</li>
+                        <li class="nav-item categories">categories</li>
+                        <li class="nav-item article">articles</li>
+                        <li class="nav-item fan-arts">fan arts</li>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="title-container">
+                <div class="title-text-container">
+                    <h1 class="title-heading">This website is awesome</h1>
+                    <p class="title-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam maxime
+                        temporibus laborum</p>
+                    <button class="title-button button rounded">Sign up</button>
                 </div>
-                <div class="column-2">
-                    <div class="header-image rectangle">
-                        <img src="#" alt="">
+                <div class="title-img-container">
+                    <div class="rectangle title-img" style="width: 300px; height: 100px; background-color: aqua;"></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+
+            <section class="random-info-container">
+                <h2 class="random-info-heading">Some random information.</h2>
+                <div class="random-img-section-container">
+                    <div class="random-content-container box">
+                        <div class="random-img"></div>
+                        <p>Lorem ipsum dolor sit official et a, error.</p>
+                    </div>
+                    <div class="random-content-container box">
+                        <div class="random-img"></div>
+                        <p>Lorem ipsum dolor sit official et a, error.</p>
+                    </div>
+                    <div class="random-content-container box">
+                        <div class="random-img"></div>
+                        <p>Lorem ipsum dolor sit official et a, error.</p>
+                    </div>
+                    <div class="random-content-container box">
+                        <div class="random-img"></div>
+                        <p>Lorem ipsum dolor sit official et a, error.</p>
                     </div>
                 </div>
-            </div>
-        </div> 
-    </header>
-    <main>
-        <section class="information-section">
-            <div class="info-container">
-                <h2>Some random information</h2>
-            <div class="information">
-                <div class="squared">
-                    <div class="bordered-box"></div>
-                    <p class="text">arum distinctio blanditiis voluptas similique veritatis sunt dolore impedit. Hic saepe eos.</p>
-                </div>
-                <div class="squared">
-                    <div class="bordered-box"></div>
-                    <p class="text">arum distinctio blanditiis voluptas similique veritatis sunt dolore impedit. Hic saepe eos.</p>
-                </div>
-                <div class="squared">
-                    <div class="bordered-box"></div>
-                    <p class="text">arum distinctio blanditiis voluptas similique veritatis sunt dolore impedit. Hic saepe eos.</p>
-                </div>
-                <div class="squared">
-                    <div class="bordered-box"></div>
-                    <p class="text">arum distinctio blanditiis voluptas similique veritatis sunt dolore impedit. Hic saepe eos.</p>
-                </div>
-            </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="quote-section">
-            <div class="quote">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aperiam cupiditate repellendus saepe dolore, modi ea ut reprehenderit et animi voluptate asperiores repellat eos quibusdam mollitia ipsa hic voluptatum optio.</p>
-                <blockquote><strong>-Thor, God of Thunder</strong></blockquote>
-            </div>
-        </section>
 
-        <section class="action-section">
-            <div class="action">
-                <div class="action-text column-one">
-                    <h3>Call to action! it's time!</h3>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+            <article class="article">
+                <div class="quote-container">
+                    <p class="quote-text">This is an inspiring quote or a testimonial from a customer. maybe it's just
+                        filling up space or maybe people will actually read i. who knows? All i know is that it looks
+                        nice
+                    </p>
+                    <p class="quoter"><strong>-Thor God of Thunder</strong></p>
                 </div>
-                <button class="sign-up white-rounded">Sign up</button>
-            </div>
-        </section>
 
-    </main>
-    <footer>
-        <p>copyright &copy; The odin project 2024</p>
-    </footer>
+            </article>
+
+            <section class="action">
+                <div class="action-bar-container rounded">
+                    <div class="action-bar rounded">
+                        <div class="action-bar-text">
+                            <h3 class="action-bar-heading">Call to action! It's time!</h3>
+                            <p>Sign up for our products by clicking that button right over there!</p>
+                        </div>
+                        <div class="buttton"><button class="rounded button action-bar-button">Sign up</button></div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer">
+                <p>Copyright &copy: The odin project 2021</p>
+            </div>
+
+        </footer>
+    </div>
 </body>
-</html>
