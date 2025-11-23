@@ -4,99 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
+    <title>Anime Recommendations</title>
 </head>
 
 <body>
-    <div class="landing-page-container">
-        <header class="header">
+    <header class="hero-main">
+        <nav class="nav">
+            <ul class="nav-list">
+                <div class="logo-wrapper">
+                    <li class="hero-logo">ANIME HUB</li>
+                </div>
+                <div class="hero-list">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Top Picks</li>
+                    <li class="nav-item">Genres</li>
+                </div>
+            </ul>
+        </nav>
 
-
-            <div class="navbar-container">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item logo">Header Logo</li>
-                        <li class="links">
-                        <li class="nav-item home">Home</li>
-                        <li class="nav-item categories">categories</li>
-                        <li class="nav-item article">articles</li>
-                        <li class="nav-item fan-arts">fan arts</li>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="hero-secondary">
+            <div class="hero-content">
+                <h1>My Best Anime Recommendations</h1>
+                <div class="hero-text">
+                    <p>From shonen to slice-of-life, here are anime series I’ve personally watched and loved.
+                        Discover your next favorite show!</p>
+                    <div class="btn-container">
+                        <button>Explore List</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="title-container">
-                <div class="title-text-container">
-                    <h1 class="title-heading">This website is awesome</h1>
-                    <p class="title-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam maxime
-                        temporibus laborum</p>
-                    <button class="title-button button rounded">Sign up</button>
+            <div class="hero-image">
+                <img src="./img/xcollection.jpeg" alt="Anime collage image">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Anime info section -->
+        <section class="information">
+            <h2>Top Anime I Recommend</h2>
+            <div class="boxes-container">
+
+                <div class="box-wrapper">
+                    <div class="box">
+                        <img src="./img/aot.jpeg" alt="Attack on Titan">
+                    </div>
+                    <p><strong>Attack on Titan</strong> – Intense, emotional, and full of twists.</p>
                 </div>
-                <div class="title-img-container">
-                    <div class="rectangle title-img" style="width: 300px; height: 100px; background-color: aqua;"></div>
+
+                <div class="box-wrapper">
+                    <div class="box">
+                        <img src="./img/jjk.jpeg" alt="Jujutsu Kaisen">
+                    </div>
+                    <p><strong>Jujutsu Kaisen</strong> – Great fights, clean animation, lovable characters.</p>
+                </div>
+
+                <div class="box-wrapper">
+                    <div class="box">
+                        <img src="./img/your-name.jpeg" alt="Your Name">
+                    </div>
+                    <p><strong>Your Name</strong> – A beautiful story with stunning visuals.</p>
+                </div>
+
+                <div class="box-wrapper">
+                    <div class="box">
+                        <img src="./img/one-piece.jpeg" alt="One Piece">
+                    </div>
+                    <p><strong>One Piece</strong> – Adventure, friendship, and the GOAT pirate story.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Quote section -->
+        <section class="quote">
+            <p>“The world is cruel — but also very beautiful.”</p>
+            <q>- Mikasa Ackerman</q>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="call-to-action">
+            <div class="cta-wrapper">
+                <div class="cta-text">
+                    <h3>Want More Anime Picks?</h3>
+                    <p>Click the button below to view my full list and ratings.</p>
+                </div>
+                <div class="btn-container">
+                    <button>See Full List</button>
                 </div>
             </div>
-        </header>
+        </section>
+    </main>
 
-        <main class="main">
+    <footer class="footer">
+        <p>Copyright © AnimeHub 2026</p>
+    </footer>
 
-
-            <section class="random-info-container">
-                <h2 class="random-info-heading">Some random information.</h2>
-                <div class="random-img-section-container">
-                    <div class="random-content-container box">
-                        <div class="random-img"></div>
-                        <p>Lorem ipsum dolor sit official et a, error.</p>
-                    </div>
-                    <div class="random-content-container box">
-                        <div class="random-img"></div>
-                        <p>Lorem ipsum dolor sit official et a, error.</p>
-                    </div>
-                    <div class="random-content-container box">
-                        <div class="random-img"></div>
-                        <p>Lorem ipsum dolor sit official et a, error.</p>
-                    </div>
-                    <div class="random-content-container box">
-                        <div class="random-img"></div>
-                        <p>Lorem ipsum dolor sit official et a, error.</p>
-                    </div>
-                </div>
-            </section>
-
-
-            <article class="article">
-                <div class="quote-container">
-                    <p class="quote-text">This is an inspiring quote or a testimonial from a customer. maybe it's just
-                        filling up space or maybe people will actually read i. who knows? All i know is that it looks
-                        nice
-                    </p>
-                    <p class="quoter"><strong>-Thor God of Thunder</strong></p>
-                </div>
-
-            </article>
-
-            <section class="action">
-                <div class="action-bar-container rounded">
-                    <div class="action-bar rounded">
-                        <div class="action-bar-text">
-                            <h3 class="action-bar-heading">Call to action! It's time!</h3>
-                            <p>Sign up for our products by clicking that button right over there!</p>
-                        </div>
-                        <div class="buttton"><button class="rounded button action-bar-button">Sign up</button></div>
-                    </div>
-                </div>
-
-            </section>
-
-        </main>
-
-        <footer>
-            <div class="footer">
-                <p>Copyright &copy: The odin project 2021</p>
-            </div>
-
-        </footer>
-    </div>
 </body>
+
+</html>
